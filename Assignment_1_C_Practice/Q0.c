@@ -37,7 +37,7 @@ void fooB(int* jptr){
 	printf("The value pointed to by jptr is: %d \n", *jptr);
 	printf("The address of the variable pointed to by jptr is: %p \n", jptr);
      /*Decrement jptr by 1*/
-	*jptr -= 1;
+	jptr -- 1;
      /*Print the address of jptr itself*/
 	
 	printf("The address of jptr is: %p \n \n", &jptr);
